@@ -1,5 +1,14 @@
 # Open Vehicle Threat Model & Logic Specification (OVTM-S)
 
+---
+
+### 📖 Policy & Architecture Analysis
+This repository provides the formal logic specification for vehicle threat modeling. For the accompanying policy critique examining the geopolitical trade-offs, security theater, and national security implications of connected vehicle bans, read the full essay on Substack:
+
+👉 **[Read "The Connected Car Delusion: How Geopolitics Distorts Automotive Cybersecurity" on Substack](https://move6729.substack.com/p/the-connected-car-delusion-how-geopolitics)**
+
+---
+
 ## Abstract
 This specification establishes a formal logic framework for auditing operational cyber-physical risks in networked vehicle architectures. It models domain boundaries, control flows, and remote code execution (RCE) surfaces to distinguish between logical software boundaries and hardware-enforced physical air-gaps.
 

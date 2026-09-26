@@ -76,9 +76,13 @@ if __name__ == "__main__":
     
     status = audit_architecture_safety([telematics, brakes])
     print(f"System Audit Result: {status.name}")
+```
 
-4. Policy vs. Engineering Compliance Engine
+---
 
+## 4. Policy vs. Engineering Compliance Engine
+
+```
 [INPUT: Regulatory Ban on Foreign Software]
        │
        ▼
@@ -91,3 +95,5 @@ if __name__ == "__main__":
        (YES)
        ▼
 [RESULT: Structural Safety Achieved]
+```
+```
